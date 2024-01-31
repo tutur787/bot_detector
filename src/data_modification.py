@@ -12,6 +12,7 @@ def remove_retweets_likes():
         for tweet in data:
             tweet.pop('Retweets', None)
             tweet.pop('Likes', None)
+            tweet.pop('Tweet_ID', None)
     #write the changes to the file
     with open('data/twitter_dataset_2.json', 'w') as file:
         json.dump(data, file, indent=4)
