@@ -4,9 +4,9 @@
 
 import json
 
-def remove_retweets_likes():
+def remove_retweets_likes(fname):
     #open the file
-    with open('data/twitter_dataset.json', 'r') as file:
+    with open(fname, 'r') as file:
         data = json.load(file)
         #remove retweets and likes
         for tweet in data:
@@ -16,9 +16,3 @@ def remove_retweets_likes():
     #write the changes to the file
     with open('data/twitter_dataset_2.json', 'w') as file:
         json.dump(data, file, indent=4)
-
-def main():
-    remove_retweets_likes()
-
-if __name__ == '__main__':
-    main()
