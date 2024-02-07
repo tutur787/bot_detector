@@ -22,7 +22,7 @@ def generate_random_tweets(n):
 
 
 def add_tweet(tweet_id, username, text, retweets, likes, timestamp):
-    with open('/Users/annazaidi/Desktop/bot_detector/data/twitter_dataset_2.json', 'r') as file:
+    with open('/data/twitter_dataset_2.json', 'r') as file:
         data = json.load(file)
         data.append({
             'Tweet_ID': tweet_id,
@@ -36,7 +36,6 @@ def add_tweet(tweet_id, username, text, retweets, likes, timestamp):
     with open('tweets.json', 'w') as file:
         json.dump(data, file)
 
-#generate 10 tweeets and add them to /Users/annazaidi/Desktop/bot_detector/data/twitter_dataset_2.json in random places
 tweets = generate_random_tweets(10)
 for tweet in tweets:
     add_tweet(tweet['Username'], tweet['Text'], tweet['Timestamp'], 0, 0, tweet['Timestamp'])
