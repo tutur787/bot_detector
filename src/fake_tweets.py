@@ -1,6 +1,4 @@
 from faker import Faker
-import random
-import datetime
 
 # Define a function to generate random tweets
 def generate_random_tweets(n):
