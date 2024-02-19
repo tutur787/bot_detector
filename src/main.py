@@ -12,7 +12,7 @@ search_url = "https://api.twitter.com/2/tweets/search/recent"
 # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
 
 # '(from:twitterdev -is:retweet) OR #twitterdev'
-query_params = {'query': '#ValentinesDay','tweet.fields': 'author_id', 'max_results':12}
+query_params = {'query': '#MFW','tweet.fields': 'author_id', 'max_results':12}
 
 
 def bearer_oauth(r):
