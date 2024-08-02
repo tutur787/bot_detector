@@ -11,13 +11,21 @@ To find the bots, we implemented many features, such as clustering based on cosi
 ## What results did we find
 
 For the second dataset, we had the following results:
-  We have found: 58 bots\n
+
+  We have found: 58 bots
+  
   There are 64 users in the users_df
+  
   90.625% of the users in users_df are bots
+  
   89.23076923076924% bots have been found
 
 For the first dataset, we had the following results:
+
   We have found: 2 bots
+  
   There are 2 users in the users_df
+  
   100% of the users in users_df are bots
+  
   100% bots have been found
