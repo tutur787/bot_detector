@@ -10,7 +10,7 @@ To find the bots, we implemented many features, such as clustering based on cosi
 
 ## What results did we find
 
-For the second dataset, we had the following results:
+### For the second dataset, we had the following results:
 
   We have found: 58 bots
   
@@ -20,7 +20,7 @@ For the second dataset, we had the following results:
   
   89.23076923076924% bots have been found
 
-For the first dataset, we had the following results:
+### For the first dataset, we had the following results:
 
   We have found: 2 bots
   
